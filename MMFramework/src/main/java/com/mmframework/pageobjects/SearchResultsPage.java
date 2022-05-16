@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.mmframework.actiondriver.Action;
 import com.mmframework.base.BaseClass;
-import com.mmframework.extentReports.ExtentTestManager;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class SearchResultsPage extends BaseClass {

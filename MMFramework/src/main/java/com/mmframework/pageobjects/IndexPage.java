@@ -7,9 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.aventstack.extentreports.ExtentReports;
 import com.mmframework.actiondriver.Action;
 import com.mmframework.base.BaseClass;
-import com.mmframework.extentReports.ExtentTestManager;
 import com.relevantcodes.extentreports.LogStatus;
 
 /**
@@ -17,6 +17,7 @@ import com.relevantcodes.extentreports.LogStatus;
  *
  */
 public class IndexPage extends BaseClass {
+	
 
 	@FindBy(xpath = "//a[@class='login']")
 	WebElement signInBtn;

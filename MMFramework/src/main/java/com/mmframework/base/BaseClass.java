@@ -14,6 +14,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.mmframework.actiondriver.Action;
 import com.mmframework.utility.ExtentManager;
@@ -22,6 +23,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	public static Properties prop;
+	public static ExtentReports extent;
+	public static ExtentTest test;
 	// Declare ThreadLocal Driver
 	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();//public static WebDriver driver; Remember the changes that were made
 //	public ExtentHtmlReporter htmlReporter;
