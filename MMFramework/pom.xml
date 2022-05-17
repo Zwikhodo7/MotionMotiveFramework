@@ -107,10 +107,11 @@
 				<configuration>
 					<suiteXmlFiles>
 					<suiteXmlFile>${xmlFiles}</suiteXmlFile>
-						<!-- <suiteXmlFile>testng.xml</suiteXmlFile> -->
-					</suiteXmlFiles>
+<!-- 						<suiteXmlFile>testng_regression.xml</suiteXmlFile>
+ -->					</suiteXmlFiles>
 					
 					<systemPropertyVariables>
+					<executionBrowser>${browser}</executionBrowser>
 						<appURL>${url}</appURL>
 					</systemPropertyVariables>
 				</configuration>
